@@ -14,16 +14,25 @@ Follow these steps to set up and run the backend for the AI product's dashboard.
 
 1. Clone the repository:
 
-   git clone https://github.com/akshay058/ai-dashboard-backend.git
+```bash
+  git clone https://github.com/akshay058/ai-dashboard-backend.git
    cd ai-dashboard-backend
+```
 
 ### Install dependencies:
 
-npm install
+```bash
+  npm install
+```
 
 ### Running the Backend
 
-- Start the Node.js server: node index.js
+Start the Node.js server:
+
+```bash
+  node index.js
+
+```
 
 The backend server will be running at http://localhost:8080 by default. You can access the API endpoints through this URL.
 
@@ -31,16 +40,20 @@ The backend server will be running at http://localhost:8080 by default. You can 
 
 1. Navigate to the python_scripts folder:
 
-- cd python_ai_script
+```bash
+  cd python_ai_script
+```
 
 2. Run the Python script to generate prediction data:
 
-- python prediction_ai_script.py
+```bash
+  python prediction_ai_script.py
+```
 
 ### API Endpoints
 
-1. /api/metrics: Fetch mock AI model metrics data in JSON format.
-2. /api/predictions: Fetch simulated AI predictions and actual results for data visualization.
+- /api/metrics:Fetch mock AI model metrics data in JSON format.
+- /api/predictions: Fetch simulated AI predictions and actual results for data visualization.
 
 ## Error Handling
 
@@ -52,6 +65,6 @@ Contributions are welcome! If you find issues or have suggestions for improvemen
 
 ## Author
 
-(s): <Akshay Jain>
+- [@Akshay](https://www.github.com/akshay058)
 
 Thank you for your patience, and I hope this version provides all the necessary information for you to set up and run the server.
