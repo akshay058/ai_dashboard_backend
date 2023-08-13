@@ -22,6 +22,13 @@ function isValidMetricsData(data) {
   }
   return true;
 }
+app.get("/", (req, res) => {
+  try {
+    return res.status(200).send("Welcome to Backend");
+  } catch (err) {
+    console.log("Error in get request", err);
+  }
+});
 
 // API endpoint to get mock AI metrics data
 app.get("/api/metrics", (req, res) => {
