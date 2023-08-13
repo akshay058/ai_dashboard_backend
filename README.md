@@ -63,6 +63,10 @@ The backend includes error handling to provide meaningful responses in case of e
 
 Contributions are welcome! If you find issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
 
+## Live
+
+https://ai-dashboard-backend-e97k.onrender.com
+
 ## Author
 
 - [@Akshay](https://www.github.com/akshay058)
