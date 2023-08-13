@@ -12,7 +12,7 @@ function isValidMetricsData(data) {
     return false;
   }
 
-  // Perform more specific validation checks here
+  // Performing more specific validation checks here
   if (
     typeof data.accuracy !== "number" ||
     typeof data.precision !== "number" ||
@@ -20,10 +20,6 @@ function isValidMetricsData(data) {
   ) {
     return false;
   }
-
-  // Additional checks based on your specific validation criteria
-  // For example, you might want to ensure that accuracy, precision, and recall are within valid ranges.
-
   return true;
 }
 
